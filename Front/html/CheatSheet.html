@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1> HTML Cheat Sheet </h1>
+    <h2> Karla Mondragón, A01025108 </h2>
+</head>
+<body>
+    <h1> Hola en &lth1&gt &lt/h1&gt </h1>
+    <h2> Hola en &lth2&gt &lt/h2&gt </h2>
+    <h3> Hola en &lth3&gt &lt/h3&gt </h3>
+    <h4> Hola en &lth4&gt &lt/h4&gt </h4>
+    <h5> Hola en &lth5&gt &lt/h5&gt </h5>
+    <h6> Hola en &lth6&gt &lt/h6&gt </h6>
+    <p> Los headers (h1, h2, h3, h4, h5 y h6) sirven para resaltar información, títulos y/o subtítulos. 
+        Organiza la información por medio de títulos y subtítulos. </p>
+    
+    <div>
+        <h2> Hola nuevamente, dentro del div - &ltdiv&gt &lt/div&gt </h2>
+        <p> Los divs crean contenedores estandar para seccionan y organizar la información. </p>
+    </div>
+
+    <header>
+        <h2> Dentro header - &ltheader&gt &lt/header&gt</h2>
+        <p> Los headers son contenedores que típicamente tienen información
+            introductora, links de navegación, etc. Basicamente funcionan como
+            una introducción. </p>
+    </header>
+
+    <div>
+        <h2> &ltp&gt &lt/p&gt - Párrafo </h2>
+        <p> Para dividir y organizar la información en párrafos se utiliza el tag de &ltp&gt &lt/p&gt. </p>
+    </div>
+
+    <div>
+        <h2> &ltbr&gt - Line Break </h2>
+        <p> Elemento que produce un salto <br>
+            de <br>
+            línea </p>
+    </div>
+
+    <div>
+        <h2> Modificadores de Texto </h2>
+        <h3> &ltstrong&gt &lt/strong&gt - Strong </h3>
+        <p> Elemento que <strong> enfatiza (aquí) </strong> las palabras más importantes de un texto. </p>
+        <h3> &ltem&gt &lt/em&gt - Em </h3>
+        <p> Al igual que <strong> strong </strong> enfatiza <em> (aquí) </em>  las palabras más importantes de un texto y puede ser anidado. </p>
+        <h3> &lti&gt &lt/i&gt - i </h3>
+        <i> Muestra el texto en itálicas </i>
+        <h3> &ltb&gt &lt/b&gt - b </h3>
+        <b> Muestra el texto en negritas </b>
+        <h3> &ltu&gt &lt/u&gt - u </h3>
+        <u> Muestra el texto en subrayado </u>
+        <p> La diferencia entre <strong> strong </strong> y <strong> b; </strong> y <em> em </em> e <em> i </em> es la semántica. Strong enfatiza semánticamente la palabra/palabras importantes, mientras que b es solo texto con un estilo convencional de negritas. </p>
+        <h3> &ltstike&gt &lt/strike&gt - Strike </h3>
+        <p> Muestra el texto tachado con una línea horizontal, <strike> así. </strike> </p>
+    </div>
+
+    <div> 
+        <h2> &ltsmall&gt &lt/small&gt - Small </h2>
+        <p> Hace el tamaño del texto una talla más pequeña que el tamaño mínimo de fuente del navegador. </p>
+        <p> Texto normal: <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, at? </p>
+        <p> Texto con &ltsmall&gt &lt/small&gt: <br> <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, ab.</small> </p>
+    </div>
+
+    <section>
+        <h2> Dentro de section - &ltsection&gt &lt/section&gt </h2>
+        <p> Elemento que representa una sección genérica de un documento, determina qué contenido corresponde a qué parte de un esquema. Está diseñado para contenidos dependientes, pero diferenciados. No se debe usar el elemento como un contenedor genérico. </p>
+    </section>
+
+    <span>
+        <h2> Dentro del span - &ltspan&gt &lt/span&gt</h2>
+        <p> Un span es un elemento que nos permite asignar cualquier atributo global 
+            de HTML a una sección de texto u otro contenido. </p>
+    </span>
+
+    <article>
+        <h2> Dentro del article &ltarticle&gt &lt/article&gt </h2>
+        <p> Un article funciona como contenido independiente y autónomo. Algunos ejemplos de uso de este 
+            elemento son posts de forums, posts de blogs o historias de noticias. </p>
+    </article>
+
+    <aside>
+        <h2> Dentro de aside &ltaside&gt &lt/aside&gt </h2>
+        <p> Elemento que representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Normalmente consiste en barras laterales o incersiones y contienen una explicación al margen. </p>
+    </aside>
+
+    <div>
+        <h2> Listas </h2>
+        <h3> Lista sin orden </h3>
+        <p> Lista de bullet points o viñetas no numeradas, se utiliza &ltul&gt &lt/ul&gt. </p>
+        <ul>
+            <li> Elemento 1 </li>
+            <li> Elemento 2 </li>
+        </ul>
+        <h3> Lista ordenada </h3>
+        <p> Lista numaerada, se utiliza &ltol&gt &lt/ol&gt. </p>
+        <ol>
+            <li> Elemento 1 </li>
+            <li> Elemento 2 </li>
+        </ol>
+    </div>
+
+    <div>
+        <h2> Tabla </h2>
+        <p> Para las tablas se establecen los headers de las tablas y después el cuerpo de ellas.
+            &ltthead&gt es el elemento para nombrar las columnas, &lttd&gt funciona para establecer cada elemento de la tabla, 
+            la función de &lttbody&gt es nombrar un bloque de filas y &lttr&gt se refiere a una fila de la tabla. </p>
+        <table>
+            <thead>
+                <td> h1 </td>
+                <td> h2 </td>
+                <td> h3 </td>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td> r11 </td>
+                    <td> h12 </td>
+                    <td> h13 </td>
+                </tr>
+                <tr> 
+                    <td> r21 </td>
+                    <td> h22 </td>
+                    <td> h23 </td>
+                </tr>
+                <tr>
+                    <td> r31 </td>
+                    <td> h32 </td>
+                    <td> h33 </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <h2> &ltimg&gt &lt/img&gt - Imágenes </h2>
+        <p> Esta imagen fue sacada de mi archivo </p>
+        <img alt="Hyunjin te quiero mucho"
+        src="../Images/HJ1.jpeg" 
+        width="200">
+        <p> Esta imagen fue recuperada de un link </p>
+        <img alt="Hyunjin te quiero mucho otra vez"
+        img src= "https://upload.wikimedia.org/wikipedia/commons/a/a4/Stray_Kids_Hyunjin.jpg"
+        width="200">
+    </div>
+
+    <div>
+        <h2> &lta&gt &lt/a&gt - Hyperlinks </h2>
+        <p> Para incluir links en páginas se utiliza &lta href = url &gt &lt/a&gt, este consiste en una URL de cualquier sitio web o apunta 
+            a un fragmento de un hyperlink. </p>
+        <a href="html_link.html"> Siguiente Página </a>
+    </div>
+
+    <div>
+        <h2> &ltform&gt - Formas </h2>
+        <form>
+            <p> Aquí se encuentra un cuadro de texto, en el existe un placeholder. Un placeholder es un atributo
+                del cuadro de texto que consiste en una descripción de la funcionalidad del cuadro de texto </p>
+            <textarea placeholder="Escribe algo"> </textarea>
+            <p> Un botón sin funcionalidad (por el momento) </p>
+            <button> Click Me </button>
+            <p> A continuación se presentan inputs, los últimos dos tienen la funcionalidad de comprobar si lo que 
+                ingresa el usuario es lo que puede aceptar la página o el sistema. </p>
+            <p> Name </p>
+            <input> 
+            <p> Email </p>
+            <input type="email">
+            <p> Password </p>
+            <input type="password">
+        </form>
+    </div>
+
+    <footer>
+        <h2> Dentro del Footer - &ltfooter&gt &lt/footer&gt </h2>
+        <p> Elemento que representa el pie de página para el contenido de sección más cercano. Usualmente contiene información acerca de el autor de la sección, datos de derechos de autor o enlaces a documentos relacionados. </p>
+    </footer>
+
+    <nav>
+        <h2> Dentro del Nav - &ltnav&gt &lt/nav&gt </h2>
+        <p> Elemento que representa la sección de una página que proporciona enlaces de navegación. </p>
+        <a href="https://www.instagram.com/realstraykids/"> Instagram Stray Kids</a>
+    </nav>
+</body>
+</html>
