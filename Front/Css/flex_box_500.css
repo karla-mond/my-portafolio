@@ -15,10 +15,10 @@ div {
     background-color: pink;
 }
 
-#box1 { border: 0px; flex: 3; }
-#box2 { border: 0px; }
-#box3 { border: 0px; }
-#box4 { border: 0px; }
+#box1 { border: 0px; flex: 4; margin-left: 100px; }
+#box2 { border: 0px; flex: 1; }
+#box3 { border: 0px; flex: 1; }
+#box4 { border: 0px; flex: 1; }
 
 #main-container {
     justify-content: center;
@@ -26,9 +26,10 @@ div {
     background-color: plum;
     border: 0px;
     flex-direction: column;
+    text-align: center;
 }
 
-#mainSub { border: 0px; }
+#mainSub { border: 0px;}
 
 #subBox { 
     margin-bottom: 0px; 
@@ -43,12 +44,45 @@ div {
 }
 
 #second-container {
-    justify-content: space-evenly;
+    justify-content: center;
     background-color: lightblue;
+    border: 0px;
+    flex-direction: row;
+}
+
+#subscribeGeneral {
+    display: flex;
+    border: 0px;
+    flex-direction: row;
+}
+
+#formDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
     border: 0px;
 }
 
-#box7 { border: 0px; flex: 2; }
+#box7 { 
+    border: 0px; 
+    text-align: right; 
+    margin-right: 0px;
+}
+
+#emailBox {
+    flex: 2; 
+    border: 0px; 
+    text-align: left; 
+    margin-left: 0px;
+}
+
+#buttonBox {
+    flex: 3; 
+    border: 0px;
+    text-align: left;
+    margin-left: 0px;
+}
 
 #third-container {
     justify-content: space-evenly;
@@ -56,9 +90,20 @@ div {
     border: 0px;
 }
 
+#HTMLBox { border: 0px; text-align: center; flex: 2; }
+#CssBox { border: 0px; text-align: center; flex: 2; }
+#JsBox { border: 0px; text-align: center; flex: 2; }
+#htmlimg { border: 0px; } 
+#cssimg { border: 0px; }
+#jsimg { border: 0px; }  
+#htmltext { border: 0px; } 
+#csstext { border: 0px; }
+#jstext { border: 0px; }  
+
 #divFooter {
     background-color: pink;
     border: 0px;
+    text-align: center;
 }
 
 .flex-container {
