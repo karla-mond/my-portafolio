@@ -1,0 +1,127 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0px;
+    /* agregar espacio hasta abajo */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, fr);
+    grid-template-rows: repeat(3, fr);
+    grid-gap: 15px;
+    grid-auto-flow: minmax(150px, auto);
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#uno {
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(163, 116, 106);
+}
+
+#dos {
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(15, 122, 102);
+}
+
+#tres {
+    grid-column: 3;
+    grid-row: 1;
+    background-color: rgb(255, 122, 102);
+}
+
+#cuatro {
+    grid-column: 4;
+    grid-row: 1;
+    background-color: rgb(15, 34, 145);
+}
+
+#cinco {
+    grid-column: 5;
+    grid-row: 1;
+    background-color: rgb(250, 178, 44);
+}
+
+#seis {
+    grid-column: 6;
+    grid-row: 1;
+    background-color: rgb(67, 199, 222);
+}
+
+#siete {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(29, 32, 32);
+}
+
+#ocho {
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(250, 73, 45);
+}
+
+#nueve {
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgb(15, 145, 85);
+}
+
+#diez {
+    grid-column: 4;
+    grid-row: 2;
+    background-color: rgb(227, 184, 255);
+}
+
+#once {
+    grid-column: 5;
+    grid-row: 2;
+    background-color: rgb(67, 222, 151);
+}
+
+#doce {
+    grid-column: 6;
+    grid-row: 2;
+    background-color: rgb(105, 41, 55);
+}
+
+#trece {
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgb(250, 128, 213);
+}
+
+#catorce {
+    grid-column: 2;
+    grid-row: 3;
+    background-color: rgb(111, 223, 202);
+}
+
+#quince {
+    grid-column: 3;
+    grid-row: 3;
+    background-color: rgb(167, 27, 6);
+}
+
+#dieciseis {
+    grid-column: 4;
+    grid-row: 3;
+    background-color: rgb(15, 130, 145);
+}
+
+#diecisiete {
+    grid-column: 5;
+    grid-row: 3;
+    background-color: rgb(255, 194, 184);
+}
+
+#dieciocho {
+    grid-column: 6;
+    grid-row: 3;
+    background-color: rgb(173, 67, 222);
+}
+
+

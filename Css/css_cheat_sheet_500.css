@@ -1,0 +1,154 @@
+* { font-family: "Shrikhand"; }
+
+body {
+    margin: 0px;
+    padding: 15px;
+    border: 10px solid black;
+}
+
+p { font-size: small; }
+
+div {
+    background-color: rgb(81, 189, 127);
+    margin: 10px 15px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+#containerBorder {
+    background-color: palevioletred;
+    border-left: 15px solid paleturquoise;
+    border-right: 15px solid orangered;
+    border-top: 15px solid yellowgreen;
+    border-bottom: 15px solid yellow;
+    border-radius: 30px;
+}
+
+#containerBI {
+    border-radius: 0px;
+    background-color: white;
+    background-image: url("https://www.muycomputer.com/wp-content/uploads/2021/06/Monterey-1.jpg");
+}
+
+#desborde1 {
+    background-color: goldenrod;
+    overflow: scroll;
+    border-radius: 0px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#desborde2 {
+    background-color: gold;
+    overflow: hidden;
+    border-radius: 0px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#desborde3 {
+    background-color: oldlace;
+    overflow: visible;
+    border-radius: 0px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#desborde4 {
+    background-color: lightgoldenrodyellow;
+    overflow: auto;
+    border-radius: 0px;
+    height: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#dn {
+    color: blue;
+    display: none;
+}
+
+#di {
+    color: blue;
+    display: inline;
+}
+
+#db {
+    color: blue;
+    display: block;
+}
+
+#dib {
+    color: blue;
+    display: inline-block
+}
+
+#p1 {
+    position: absolute;
+    top: 5140px;
+    left: 750px;
+    background: blue;
+}
+
+#p2 {
+    position: fixed;
+    top: 190px;
+    left: 400px;
+    background: blue;
+}
+
+#p3 {
+    position: sticky; 
+    top: 20px;
+    background: blue;
+    width: 230px;
+}
+
+#skz1 { filter: grayscale(100%) }
+
+#skz2 { filter: blur(5px) }
+
+#skz3 { filter: saturate(5) }
+
+.containerExtra {
+    background-color: lightcoral;
+    border-radius: 0px;
+}
+
+.container {
+    background-color: lightskyblue;
+    border: 10px solid pink;
+    border-radius: 0px;
+}
+
+.containerTamanio {
+    background-color: plum;
+    border: 12px solid orange;
+    width: 500px;
+    height: 370px;
+}
+
+.one { list-style: square; }
+
+.two { list-style:upper-roman; }
+
+.margin1 {
+    margin: auto;
+    background-color: brown;
+    width: 60%;
+}
+
+.margin2 {
+    margin: 20px 2px 15px 5px;
+    background-color: bisque;
+    width: 60%;
+}
+
+h5 {
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+}
+  
+h6 {
+    background-color: gray;
+    padding: 40px 40px 40px 40px;
+}

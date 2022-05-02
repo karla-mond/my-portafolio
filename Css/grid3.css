@@ -1,0 +1,37 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+    margin: 0px;
+    /* agregar espacio hasta abajo */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: repeat(3, fr);
+    grid-gap: 15px;
+    grid-auto-flow: minmax(150px, auto);
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#uno {
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: rgb(250, 148, 128);
+}
+
+#dos {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: rgb(15, 145, 85);
+}
+
+#tres {
+    grid-area: 2 / 2 / 3 / 4;
+    background-color: rgb(255, 122, 102);
+}
+
+#cuatro {
+    grid-area: 3 / 1 / 4 / 4;
+    background-color: rgb(67, 222, 151);
+}
