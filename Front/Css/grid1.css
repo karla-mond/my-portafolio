@@ -1,0 +1,71 @@
+body {
+    overflow: auto;
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+    /* agregar espacio hasta abajo */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    grid-auto-flow: minmax(150px, auto);
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#uno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(250, 148, 128);
+}
+
+#dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(15, 145, 85);
+}
+
+#tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 3;
+    grid-row: 1;
+    background-color: rgb(255, 122, 102);
+}
+
+#cuatro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(67, 222, 151);
+}
+
+#cinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(222, 87, 67);
+}
+
+#seis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: rgb(15, 122, 102);
+}

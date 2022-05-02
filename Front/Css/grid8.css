@@ -1,0 +1,97 @@
+body {
+    overflow: auto;
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+    /* agregar espacio hasta abajo */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, fr);
+    grid-template-rows: repeat(3, fr);
+    grid-gap: 15px;
+    grid-auto-flow: minmax(150px, auto);
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#uno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(15, 122, 102);
+}
+
+#dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 1;
+    background-color: rgb(67, 199, 222);
+}
+
+#tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 3;
+    grid-row: 1;
+    background-color: rgb(250, 73, 45);
+}
+
+#cuatro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 4;
+    grid-row: 1;
+    background-color: rgb(250, 128, 213);
+}
+
+#cinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 5;
+    grid-row: 1;
+    background-color: rgb(167, 27, 6);
+}
+
+#seis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 1;
+    grid-row: 2;
+    background-color: rgb(15, 130, 145);
+}
+
+#siete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(173, 67, 222);
+}
+
+#ocho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 2 / 3 / 3 / 6;
+    background-color: rgb(250, 178, 44);
+}
+
+#nueve {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 3 / 1 / 4 / 6;
+    background-color: rgb(255, 194, 184);
+}

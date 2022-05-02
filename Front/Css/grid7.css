@@ -1,0 +1,79 @@
+body {
+    overflow: auto;
+    height: 100vh;
+    margin: 0px;
+    text-align: center;
+    /* agregar espacio hasta abajo */
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-template-rows: repeat(2, fr);
+    grid-gap: 15px;
+    grid-auto-flow: minmax(150px, auto);
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+#uno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 1 / 1 / 1 / 3;
+    background-color: rgb(15, 122, 102);
+}
+
+#dos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 1 / 3 / 2 / 5;
+    background-color: rgb(67, 199, 222);
+}
+
+#tres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 4 / 1 / 2 / 3;
+    background-color: rgb(250, 73, 45);
+}
+
+#cuatro {
+    display: grid;
+    text-align: left;
+    grid-template-columns: repeat(2, fr);
+    grid-template-rows: repeat(2, fr);
+    grid-auto-flow: minmax(150px, auto);
+    grid-gap: 5px;
+    margin: 10px;
+    padding: 10px;
+    grid-area: 4 / 3 / 2 / 5;
+    background-color: rgb(250, 128, 213);
+}
+
+#cinco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 1 / 1 / 2 / 5;
+    background-color: rgb(167, 27, 6);
+}
+
+#seis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 3 / 1 / 2 / 3;
+    background-color: rgb(15, 130, 145);
+}
+
+#siete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: 3 / 3 / 2 / 5;
+    background-color: rgb(173, 67, 222);
+}
