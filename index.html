@@ -1,45 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Girly Software Development Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="header">
-        <h1>Construcción de Software</h1>
-        <h3>Karla Mondragón, A01025108</h3>
-    </header>
-    <div>
-        <h2>Tareas</h2>
-        <p> Tarea 1 </p>  
-        <ul>
-            <li> <a href="Front/html/CheatSheet.html"> Cheat Sheet HTML </a> </li>
-            <li> <a href="Front/html/css_cheat_sheet_500.html"> Cheat Sheet CSS archivo HTML </a> </li>
-            <li> <a href="Front/Css/css_cheat_sheet_500.css"> Cheat Sheet archivo CSS </a> </li>
-        </ul>
-        <p> Tarea 2 </p>
-        <ul>
-            <li> <a href="Front/Css/flex_box_500.css"> Simple Web Page archivo CSS </a> </li> 
-            <li> <a href="Front/html/flex_box_500.html"> Simple Web Page archivo HTML </a> </li>
-        </ul>
-        <p> Tarea 3 </p>
-        <ul>
-            <li> <a href="Front/Css/act1_js.css"> Ejercicios JS archivo CSS </a> </li>  
-            <li> <a href="Front/html/act1_js.html"> Ejercicios JS archivo HTML </a> </li>  
-            <li> <a href="Front/js/act1_js.js"> Ejercicios JS archivo JS </a> </li>  
-        </ul>
-        <p> Tarea 4 </p>
-        <ul>
-            <li> <a href="Front/Css/eventos_dom.css"> Ejercicios Eventos archivo CSS </a> </li>  
-            <li> <a href="Front/html/eventos_dom.html"> Ejercicios Eventos archivo HTML </a> </li> 
-            <li> <a href="Front/js/eventos_dom.js"> Ejercicios Eventos archivo JS </a> </li> 
-        </ul>
-        <p> Tarea 5 </p>
-        <ul>
-            <li> <a href="Front/html/indexGrids.html"> Ejercicios Grids CSS </a> </li>
-        </ul>
-    </div>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Jane Smith</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="about-container">
+        <img src="profile-pic.jpg" alt="Profile Picture">
+        <h2>About Me</h2>
+        <p>Hi, I'm Jane. I'm a software developer with a passion for creating beautiful, functional software. I specialize in web development and have experience with HTML, CSS, JavaScript, and React. I'm always eager to learn new things and improve my skills.</p>
+        <p>In my free time, I enjoy reading, baking, and spending time with my cat.</p>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3>Project 1</h3>
+          <p>A responsive website for a local bakery.</p>
+          <a href="#">View Project</a>
+        </li>
+        <li>
+          <h3>Project 2</h3>
+          <p>A React app for tracking personal expenses.</p>
+          <a href="#">View Project</a>
+        </li>
+        <li>
+          <h3>Project 3</h3>
+          <p>An online store built with Node.js and Express.</p>
+          <a href="#">View Project</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
 </body>
 </html>
