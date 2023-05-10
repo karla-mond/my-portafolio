@@ -4,6 +4,10 @@ import colorSharp2 from '../assets/img/color-sharp2.png';
 import projImg1 from '../assets/img/asleep.jpg';
 import projImg2 from '../assets/img/aobregon.jpg';
 import projImg3 from '../assets/img/swivel.jpg';
+import projImg4 from '../assets/img/santander.jpg';
+import projImg5 from '../assets/img/kalypso.jpg';
+import projImg6 from '../assets/img/PH.jpg';
+import projImg7 from '../assets/img/NHSMUN.jpg';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
@@ -24,6 +28,31 @@ export const Projects = () => {
       imgUrl: projImg3,
     }
   ]
+  const projectsWork = [
+    {
+      title: "Linker in MIS team - 9 months",
+      description: "Intern in Management Information Systems at Santander México where as a team, we identified the Bank’s needs and the create KPIs that satisfy them. We managed and monitored more than 200 metrics that optimize the Bank’s technological resources and avoid risks and incidents. I was in charge of the creation and management of presentation materials for executives in senior management forums (regional and international) regarding the status of the indicators with their respective remediation plans if needed.",
+      imgUrl: projImg4,
+    },
+    {
+      title: "Winner of KIC and intern - starts in June",
+      description: "Winner of the Kalypso Innovation Competition and future intern of the company",
+      imgUrl: projImg5, 
+    }
+  ]
+  const projectsPersonal = [
+    {
+      title: "Beautiful Patterns: Bootcamp for Young Women - Summer 2022",
+      description: "Instructor of the basic level (english course in computational thinking and web design) for girls between the ages of 11 and 15 years. Planned and personalized teaching material for the girls, in collaboration with my teammates. Answered and tutored the students in their web design project (CSS, Java and HTML).",
+      imgUrl: projImg6,
+    },
+    {
+      title: "NHSMUN MX - 2022",
+      description: "Director of SOCHUM  where I onceptualized topics that addressed world events and necessities while designing a plausible and interesting committee and collected, integrated and summarized information for the development of the committee and its topics.",
+      imgUrl: projImg7, 
+    }
+  ]
+
   return (
     <section className="project" id="project">
       <Container>
@@ -64,9 +93,12 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          projectsWork.map((project, index) => {
                             return (
-                              <p>Lorem Ipsum</p>
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                              />
                             )
                           })
                         }
@@ -75,9 +107,12 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                       <Row>
                         {
-                          projects.map((project, index) => {
+                          projectsPersonal.map((project, index) => {
                             return (
-                              <p>Lorem Ipsum</p>
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                              />
                             )
                           })
                         }
