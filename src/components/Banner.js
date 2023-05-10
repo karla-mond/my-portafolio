@@ -47,6 +47,9 @@ export const Banner = () => {
     <section className="banner" id="home">
       <Container>
         <Row className="align-items-center">
+          <Col xs={12} md={6} xl={5}>
+            <img src={headerImg} alt="Header Img"/>
+          </Col>
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
             {({ isVisible }) => 
@@ -56,9 +59,6 @@ export const Banner = () => {
                 <p> I'm a student at Tecnológico de Monterrey, majoring in Ingeniería en Tecnologías Computacionales. I love Latin American literature, I'm curious and I'm passionate about social change. I like to envision myself working in creative and dynamic projects specifically in areas like augmented reality, project management and quality assurance.  </p>
               </div>}
             </TrackVisibility>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img"/>
           </Col>
         </Row>
       </Container>
