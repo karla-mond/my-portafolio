@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons";
-import headerImg from '../assets/img/header-img.svg';
+import headerImg from '../assets/img/header-img.png';
 import 'animate.css'
 import TrackVisibility from 'react-on-screen';
 import { isVisible } from "@testing-library/user-event/dist/utils";
@@ -9,7 +9,7 @@ import { isVisible } from "@testing-library/user-event/dist/utils";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Software Developer", "Digital Artist", "Programmer", "Student"];
+  const toRotate = ["Software Developer", "Feminist", "Programmer", "Student"];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -54,7 +54,6 @@ export const Banner = () => {
                 <span className="tagLine">Welcome to my Portfolio</span>
                 <h1>{`Hi, I'm Karla, `}<span className="wrap">{text}</span></h1>
                 <p> I'm a student at Tecnológico de Monterrey, majoring in Ingeniería en Tecnologías Computacionales. I love Latin American literature, I'm curious and I'm passionate about social change. I like to envision myself working in creative and dynamic projects specifically from areas such as augmented reality, project management and quality assurance.  </p>
-                <button onClick={() => console.log('clicked')}>Let’s Connect<ArrowRightCircle size={25}/></button>
               </div>}
             </TrackVisibility>
           </Col>
