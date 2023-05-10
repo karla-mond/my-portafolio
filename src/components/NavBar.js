@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
-// import navIcon2 from '../assets/img/nav-icon2.svg';
-// import navIcon3 from '../assets/img/nav-icon3.svg';
+import navIcon4 from '../assets/img/nav-icon4.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -47,6 +46,9 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/karla-mondrag%C3%B3n-rosas-15774721b" target="_blank" rel="noreferrer"><img src={navIcon1} alt="LinkedIn" /></a>
+              </div>
+              <div className="social-icon">
+                <a href="https://github.com/karla-mond" target="_blank" rel="noreferrer"><img src={navIcon4} alt="Github" /></a>
               </div>
             </span>
           </Navbar.Collapse>
