@@ -1,15 +1,15 @@
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import colorSharp2 from '../assets/img/color-sharp2.png';
-import projImg1 from '../assets/img/project-img1.png';
-import projImg2 from '../assets/img/project-img2.png';
-import projImg3 from '../assets/img/project-img3.png';
+import projImg1 from '../assets/img/asleep.jpg';
+import projImg2 from '../assets/img/aobregon.jpg';
+import projImg3 from '../assets/img/swivel.jpg';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
   const projects = [
     {
-      title: "Asleep - Videogame - 2022",
+      title: "Asleep - 2022",
       description: "Videogame developed for the Mexican Association of Videogames, that lets the user build their own levels and scenarios. In a team of 3, we acted as full-stack and videogame developers. It was my first time working with agile methodologies and planning the software development.",
       imgUrl: projImg1,
     },
@@ -19,7 +19,7 @@ export const Projects = () => {
       imgUrl: projImg2,
     },
     {
-      title: "Digitalization of the Acquisition of a Vehicle (Commercial Software) - 2023",
+      title: "Swivel - 2023",
       description: "Web application with the purpose of the digitalization of the process of acquisition of a new or semi-new vehicle, where I had the opportunity to act as project manager while still being a part of the developing and testing team. Commercial grade software developed for NDS Cognitive labs.",
       imgUrl: projImg3,
     }
