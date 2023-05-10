@@ -8,6 +8,7 @@ import projImg4 from '../assets/img/santander.jpg';
 import projImg5 from '../assets/img/kalypso.jpg';
 import projImg6 from '../assets/img/PH.jpg';
 import projImg7 from '../assets/img/NHSMUN.jpg';
+import projImg8 from '../assets/img/circo.jpg';
 import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
@@ -50,6 +51,11 @@ export const Projects = () => {
       title: "NHSMUN MX - 2022",
       description: "Director of SOCHUM  where I onceptualized topics that addressed world events and necessities while designing a plausible and interesting committee and collected, integrated and summarized information for the development of the committee and its topics.",
       imgUrl: projImg7, 
+    },
+    {
+      title: "El Circo - 2022",
+      description: "Screenwriter at the Political Commentary Show “El Circo” where I supported in the conceptualization and writing of the 11 episodes of the show, produced by Blua Media (Tec de Monterrey) and gathered information, sources and media (images, videos, audio), and integrated them in the show’s script.",
+      imgUrl: projImg8, 
     }
   ]
 
