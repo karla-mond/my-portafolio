@@ -36,8 +36,8 @@ export const Projects = () => {
       imgUrl: projImg4,
     },
     {
-      title: "Winner of KIC and intern - starts in June",
-      description: "Winner of the Kalypso Innovation Competition and future intern of the company",
+      title: "Winner of KIC",
+      description: "Winner of the Kalypso Innovation Competition",
       imgUrl: projImg5, 
     }
   ]
