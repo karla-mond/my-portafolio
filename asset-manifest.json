@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-portafolio/static/css/main.08074e62.css",
+    "main.js": "/my-portafolio/static/js/main.965fe7f0.js",
+    "static/media/header-img.png": "/my-portafolio/static/media/header-img.9171952501f0433f66fe.png",
+    "static/media/color-sharp.png": "/my-portafolio/static/media/color-sharp.8486d0f897bbf5dcbba8.png",
+    "static/media/color-sharp2.png": "/my-portafolio/static/media/color-sharp2.0f96de50a0a8b2134b38.png",
+    "static/media/CentraNo2-Bold.ttf": "/my-portafolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/my-portafolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/my-portafolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/wallpaper.jpg": "/my-portafolio/static/media/wallpaper.7fb37ca9a5b03fb2a72b.jpg",
+    "static/media/kalypso.jpg": "/my-portafolio/static/media/kalypso.5f02ba258ca9094ac06a.jpg",
+    "static/media/circo.jpg": "/my-portafolio/static/media/circo.cbdf57e5cfe5e30c88a0.jpg",
+    "static/media/santander.jpg": "/my-portafolio/static/media/santander.1a4f6fb6bb49caa912d4.jpg",
+    "static/media/asleep.jpg": "/my-portafolio/static/media/asleep.3164d1d1f488763e5978.jpg",
+    "static/media/PH.jpg": "/my-portafolio/static/media/PH.5473f737f60c1f704e61.jpg",
+    "static/media/NHSMUN.jpg": "/my-portafolio/static/media/NHSMUN.6eb4031c998beb2a1183.jpg",
+    "static/media/aobregon.jpg": "/my-portafolio/static/media/aobregon.81861dbb7f02643fcc24.jpg",
+    "static/media/swivel.jpg": "/my-portafolio/static/media/swivel.76ff6b25356d2ff09154.jpg",
+    "static/media/revicons.eot": "/my-portafolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/my-portafolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/my-portafolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon4.svg": "/my-portafolio/static/media/nav-icon4.3ea7d9bcdf7bb4836e2175ac2a12c306.svg",
+    "index.html": "/my-portafolio/index.html",
+    "static/media/nav-icon1.svg": "/my-portafolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.08074e62.css.map": "/my-portafolio/static/css/main.08074e62.css.map",
+    "main.965fe7f0.js.map": "/my-portafolio/static/js/main.965fe7f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08074e62.css",
+    "static/js/main.965fe7f0.js"
+  ]
+}
